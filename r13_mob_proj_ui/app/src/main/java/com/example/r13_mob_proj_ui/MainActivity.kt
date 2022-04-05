@@ -14,12 +14,37 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
+        binding.imageButton.setOnClickListener {
+            startAc1()
+        }
+
         binding.imageButton2.setOnClickListener {
-            startAc()
+            startAc2()
+        }
+
+        binding.imageButton3.setOnClickListener {
+            startAc3()
+        }
+
+        binding.imageButton4.setOnClickListener {
+            startAc4()
         }
     }
-    fun startAc() {
+    fun startAc1() {
+        val intent = Intent(this, reseptiview2::class.java)
+        startActivity(intent)
+    }
+    fun startAc2() {
         val intent = Intent(this, reseptiview::class.java)
+        startActivity(intent)
+    }
+    fun startAc3() {
+        val intent = Intent(this, reseptiview3::class.java)
+        startActivity(intent)
+    }
+    fun startAc4() {
+        val intent = Intent(this, reseptiview4::class.java)
         startActivity(intent)
     }
 }

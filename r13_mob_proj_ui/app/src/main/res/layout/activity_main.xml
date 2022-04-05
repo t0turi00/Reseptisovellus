@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00BAB7B1"
-        android:text="★★★★☆"
+        android:text="★★★★★"
         android:textColor="#FFEB3B"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00BAB7B1"
-        android:text="★★★★★"
+        android:text="★★★★☆"
         android:textColor="#FFEB3B"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -90,7 +90,7 @@
         app:layout_constraintTop_toBottomOf="@+id/svMain" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imBu1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -103,7 +103,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/imbu2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -113,46 +113,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.109"
         app:srcCompat="@drawable/ic_filter" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="175dp"
-        android:layout_height="144dp"
-        android:clickable="false"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367"
-        app:srcCompat="@drawable/hernari" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="178dp"
-        android:layout_height="144dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.927"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734"
-        app:srcCompat="@drawable/risotto" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="176dp"
-        android:layout_height="147dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732"
-        app:srcCompat="@drawable/kakku" />
 
     <TextView
         android:id="@+id/textView"
@@ -216,6 +176,20 @@
         app:layout_constraintVertical_bias="0.205" />
 
     <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="178dp"
+        android:layout_height="151dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        app:srcCompat="@drawable/hernari"
+        tools:srcCompat="@drawable/hernari" />
+
+    <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="178dp"
         android:layout_height="151dp"
@@ -228,6 +202,34 @@
         app:layout_constraintVertical_bias="0.372"
         app:srcCompat="@drawable/burger1"
         tools:srcCompat="@drawable/burger1" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="178dp"
+        android:layout_height="151dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@drawable/kakku"
+        tools:srcCompat="@drawable/kakku" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="178dp"
+        android:layout_height="151dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@drawable/risotto"
+        tools:srcCompat="@drawable/risotto" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

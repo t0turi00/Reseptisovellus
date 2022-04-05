@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.R13_mob_proj_ui">
         <activity
+            android:name=".reseptiview4"
+            android:exported="false" />
+        <activity
+            android:name=".reseptiview3"
+            android:exported="false" />
+        <activity
+            android:name=".reseptiview2"
+            android:exported="false"
+            android:label="@string/title_activity_reseptiview2"
+            android:theme="@style/Theme.R13_mob_proj_ui.NoActionBar" />
+        <activity
             android:name=".reseptiview"
             android:exported="false" />
         <activity
