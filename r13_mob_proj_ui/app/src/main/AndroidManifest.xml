@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.R13_mob_proj_ui">
         <activity
+            android:name=".AddDataView"
+            android:exported="false" />
+        <activity
+            android:name=".WriteData"
+            android:exported="false" />
+        <activity
             android:name=".reseptiview4"
             android:exported="false" />
         <activity
