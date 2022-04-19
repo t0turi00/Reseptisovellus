@@ -1,4 +1,4 @@
-package com.example.r13_mob_proj_ui
+package com.example.r13_projekti
 
 import org.junit.Test
 

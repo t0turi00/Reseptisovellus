@@ -3,17 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/activity_add_data_view.xml" value="0.36666666666666664" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/activity_reseptiview.xml" value="0.34257907542579075" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/activity_reseptiview2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/activity_reseptiview3.xml" value="0.35260416666666666" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/activity_reseptiview4.xml" value="0.36666666666666664" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/activity_write_data.xml" value="0.36666666666666664" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/content_reseptiview2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/fragment_resepti.xml" value="0.33" />
-        <entry key="..\:/Native mobile/Projektikoodit/r13_mob_proj_ui/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Native mobile/Projektikoodit/r13_projekti/app/src/main/res/layout/activity_main.xml" value="0.3451086956521739" />
+        <entry key="..\:/Native mobile/Projektikoodit/r13_projekti/app/src/main/res/layout/item_recipe.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
